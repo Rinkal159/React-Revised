@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.heading {
+    font-weight: 300;
+    font-size: 3.5rem;
+    padding: 1rem 0 0 0;
+}
+.count {
+    font-size: 7rem;
+    font-weight: 300;
+    padding: 1rem 0 2rem;
+}
+.btn-cont {
+    display: flex;
+    gap: 1.5rem;
+}
+.btns {
+    border: none;
+    box-shadow: 0 0 0 1px black;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+.btns:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 1.5px rgb(1, 8, 8);
+}
+.btns:active {
+    transform: scale(.95);
+    background-color: rgba(128, 128, 128, 0.17);
+}
+.form {
+    display: flex;
+    margin: 1rem;
+}
+.input {
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 0 0 0 1px black;
+    border-radius: 6px 0 0 6px;
+}
+::placeholder {
+    transition: .1s ease-out;
+
+}
+input:hover::placeholder {
+    color: black;
+    font-size: 1rem;
+}
+.setBtn {
+    border-radius: 0 6px 6px 0;
+    border: none;
+    box-shadow: 0 0 0 1px black;
+    font-size: 1rem;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
