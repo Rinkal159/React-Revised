@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    font-size: 4rem;
+    text-align: center;
+    padding: 1.5rem 0 3.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    margin-inline: auto;
+}
+
+.form {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .5s ease-out;
+}
+
+.input:hover {
+    outline: 1px solid black;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 0 0 0 1px black;
+    background-color: rgba(128, 128, 128, 0.256);
+    transition: .3s ease-out;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover {
+    /* background-color: rgba(128, 128, 128, 0.406); */
+    transform: scale(1.02);
+}
+
+.btn:active {
+    transform: scale(.96);
+}
+
+.list {
+    width: 50%;
+    margin-inline: auto;
+    padding: 1rem 0;
+}
+
+.li {
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    list-style-position: inside;
+}
+
+.fa-trash-can,
+.fa-check {
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.fa-trash-can {
+    color: rgb(222, 0, 0);
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-trash-can:hover,
+.fa-check:hover {
+    transform: scale(1.1);
+}
+
+.fa-trash-can:active,
+.fa-check:active {
+    transform: scale(.95);
+}
