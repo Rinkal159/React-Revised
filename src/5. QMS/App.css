@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+    margin: 2rem 0 .7rem;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.desc {
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: .08rem;
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+.cont {
+    background-color: rgba(128, 128, 128, 0.157);
+    padding: 2rem 2rem 3rem;
+    width: 60vw;
+    margin: 3rem 0 0;
+}
+
+.input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: .90rem;
+    box-shadow: 0 0 0 .50px gray;
+}
+
+.input:focus,
+.input:hover {
+    outline: none;
+    box-shadow: 0 0 0 1px gray;
+}
+
+.select {
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 40%;
+}
+
+.form-heading {
+    margin: 0 0 1.5rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 0 1px gray;
+    background-color: rgba(128, 128, 128, 0.204);
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.btn:hover {
+    background-color: rgba(128, 128, 128, 0.301);
+}
+
+.btn:active {
+    transform: scale(.95);
+}
+
+.queue-heading {
+    font-size: 2.6rem;
+}
+
+.item {
+    border: 2px solid black;
+}
+
+.current-queue {
+    background-color: rgba(128, 128, 128, 0.224);
+    margin-bottom: 2rem;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.service,
+.status {
+    font-size: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.left {
+    font-size: 1.1rem;
+}
+
+.left:hover {
+    background-color: green;
+}
+
+.right {
+    background-color: rgb(196, 0, 0);
+    color: white;
+    font-size: 1.1rem;
+}
+
+.left:hover {
+    transform: scale(1.02);
+}
+
+.right:hover {
+    background-color: rgb(168, 0, 0);
+}
+
+.right:active,
+.left:active {
+    transform: scale(.95);
+}
+
+.left,
+.right {
+    border: none;
+}
