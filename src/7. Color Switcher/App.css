@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boxCont {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 0 2rem;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px black;
+}
